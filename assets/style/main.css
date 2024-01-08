@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-color: dimgray;
+  background-image: url(../images/photo_2024-01-08_10-37-19.jpg);
+}
+
+.box {
+  width: 130px;
+  height: 130px;
+  background-color: dodgerblue;
+  border-radius: 20px;
+  border: 10px solid gold;
+  position: absolute;
+  top: 160px;
+  left: 120px;
+  animation: box 10s infinite;
+}
+
+@keyframes box {
+  0% {
+    top: 150px;
+    left: 120px;
+  }
+  10% {
+    top: 150px;
+    left: 650px;
+    background-color: red;
+    border: 10px solid dodgerblue;
+  }
+  20% {
+    top: 720px;
+    left: 650px;
+    background-color: purple;
+    border: 10px solid black;
+  }
+  30% {
+    top: 720px;
+    left: 2000px;
+    background-color: gold;
+    border: 10px solid pink;
+  }
+  40% {
+    top: 1030px;
+    left: 1980px;
+    background-color: green;
+    border: 10px solid red;
+  }
+  50% {
+    top: 1030px;
+    left: 1230px;
+    background-color: aqua;
+    border: 10px solid dimgray;
+  }
+  60% {
+    top: 920px;
+    left: 1230px;
+    background-color: yellowgreen;
+  }
+  70% {
+    top: 920px;
+    left: 650px;
+    background-color: pink;
+    border: 10px solid green;
+  }
+  80% {
+    top: 680px;
+    left: 330px;
+    background-color: chartreuse;
+    border: 10px solid gold;
+  }
+  90% {
+    top: 690px;
+    left: 100px;
+    background-color: navy;
+    border: 10px solid purple;
+  }
+  100% {
+    top: 150px;
+    left: 120px;
+    background-color: dodgerblue;
+    border: 10px solid gold;
+  }
+}/*# sourceMappingURL=main.css.map */
